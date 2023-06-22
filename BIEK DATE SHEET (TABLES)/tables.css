@@ -1,0 +1,13 @@
+td {
+    text-align: center;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+
+th {
+  background-color: #1d791f;
+  color: white;
+}
