@@ -1,0 +1,61 @@
+
+*{
+    font-family: sans-serif;
+}
+.ini {
+    text-align: center;
+}
+
+.ini ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* .ini li {
+    margin: 10px;
+    background-color: #F3FCE2;
+    padding: 29px 31px;
+    border-radius: 12px;
+    width: 101px;
+}  */
+.ini li {
+    margin: 11px;
+    background-color: #F3FCE2;
+    padding: 21px 32px;
+    border-radius: 21px;
+    width: 79px;
+    height: 107px;
+  }
+
+
+h2 {
+    text-align: center;
+    transform: scale(1.1);
+    font-size: 32px;
+}
+.ini li img {
+    /* display: block; */
+    padding: 0;
+    margin: 0;
+    }
+li{
+    transition: transform 0.2s ease;
+      }
+
+
+li:hover {
+            transform: scale(1.1); /* Zoom in the li on hover */
+        }
+
+      
+      li span{
+        padding: auto;
+        font-size: 1rem;
+
+     }
+   
+        
